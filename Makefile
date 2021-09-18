@@ -16,6 +16,7 @@ selfcheck:
 check: selfcheck test lint
 
 build:
+	rm ./dist/*
 	poetry build
 
 publish:
@@ -23,6 +24,9 @@ publish:
 
 package-install:
 	python3 -m pip install --user dist/*.whl
+
+package-upgrade:
+	python3 -m pip install --user --upgrade dist/*.whl
 
 brain-games:
 	poetry run brain-games

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.0"
+version = "0.1.1"
 description = "Hexlet python project. Level 1"
 authors = ["Turbanov Valeriy <tur.4000@gmail.com>"]
 license = "MIT"
@@ -10,6 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
+prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
 
