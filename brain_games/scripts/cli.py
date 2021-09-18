@@ -1,8 +1,9 @@
-#!/usr/bin/env python3
-
+"""Вывод приветствия и запрос имени игрока."""
 import prompt
 
+
 def welcome_user():
+    """Display welcome and prompt palayer name."""
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    print('Hello, {0!s}!'.format(name))
