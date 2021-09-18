@@ -4,11 +4,17 @@ version = "0.1.0"
 description = "Hexlet python project. Level 1"
 authors = ["Turbanov Valeriy <tur.4000@gmail.com>"]
 license = "MIT"
+packages = [
+    {include = "brain_games"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
