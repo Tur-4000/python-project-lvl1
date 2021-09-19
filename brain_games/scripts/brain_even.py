@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """'Brain Even' Play."""
 
-from brain_games.game import game
+from brain_games.games.even_game import even_game
 
 
 def main():
     """Main function of Brain Even."""
-    game()
+    even_game()
 
 
 if __name__ == '__main__':
