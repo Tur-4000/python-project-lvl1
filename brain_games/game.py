@@ -10,6 +10,9 @@ def run_game(game_data, instruction):
     Args:
         game_data: callable
         instruction: string
+    
+    Returns:
+        None
     """
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
