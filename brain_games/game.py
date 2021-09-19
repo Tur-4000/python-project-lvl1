@@ -28,9 +28,9 @@ def game():
     """Play game."""
     user_name = welcome_user()
     print('{0!s}'.format(rules_of_play))
-    tour = TOUR_COUNTER
+    tour = 0
 
-    while tour > 0:
+    while tour < TOUR_COUNTER:
         question = randint(1, 100)
         right_answer = 'yes' if is_even(question) else 'no'
         print('Question: {0}'.format(question))
@@ -38,14 +38,14 @@ def game():
 
         if answer == right_answer:
             print('Correct!')
-            tour -= 1
+            tour += 1
         else:
             print(
                 "'{0!s}' is wrong answer ;(. ".format(answer),
                 "Correct answer was '{0!s}'".format(right_answer),
             )
             print("Let's try again, {0!s}!".format(user_name))
-            tour = TOUR_COUNTER
+            tour = 0
 
     print('Congratulations, {0!s}!'.format(user_name))
 
