@@ -31,3 +31,8 @@ make install
 ## Brain Progression
 
 [![asciicast](https://asciinema.org/a/436733.svg)](https://asciinema.org/a/436733)
+
+
+## Brain Prime
+
+[![asciicast](https://asciinema.org/a/436741.svg)](https://asciinema.org/a/436741)
