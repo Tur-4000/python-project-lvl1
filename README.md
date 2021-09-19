@@ -4,3 +4,18 @@
 
 ### Codeclimate maintainability
 [![Maintainability](https://api.codeclimate.com/v1/badges/f2b7f9ebec6ef9f1511c/maintainability)](https://codeclimate.com/github/Tur-4000/python-project-lvl1/maintainability)
+
+# Brain Games
+
+First python project on Hexlet
+
+### Install
+```bash
+git clone https://github.com/Tur-4000/python-project-lvl1.git
+cd ./python-project-lvl1
+make install
+```
+
+## Brain Even
+
+[![asciicast](https://asciinema.org/a/436620.svg)](https://asciinema.org/a/436620)
