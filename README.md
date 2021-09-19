@@ -23,3 +23,7 @@ make install
 ## Brain Calc
 
 [![asciicast](https://asciinema.org/a/436671.svg)](https://asciinema.org/a/436671)
+
+## Brain GCD
+
+[![asciicast](https://asciinema.org/a/436699.svg)](https://asciinema.org/a/436699)
