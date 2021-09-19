@@ -27,3 +27,7 @@ make install
 ## Brain GCD
 
 [![asciicast](https://asciinema.org/a/436699.svg)](https://asciinema.org/a/436699)
+
+## Brain Progression
+
+[![asciicast](https://asciinema.org/a/436733.svg)](https://asciinema.org/a/436733)
