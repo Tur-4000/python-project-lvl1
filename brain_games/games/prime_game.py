@@ -7,9 +7,9 @@ from brain_games.game import run_game
 
 def prime_game():
     """Play Prime Game."""
-    instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    instr = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-    run_game(get_game_data, instruction)
+    run_game(get_game_data, instr)
 
 
 def get_game_data():
@@ -40,7 +40,7 @@ def is_prime(number):
     if number < 2:
         return False
     div = 2
-    
+
     while number % div != 0:
         div += 1
 
