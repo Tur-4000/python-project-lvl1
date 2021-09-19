@@ -2,7 +2,6 @@
 from random import randint
 
 import prompt
-
 from brain_games.game import run_game
 
 
@@ -14,7 +13,12 @@ def even_game():
 
 
 def get_game_data():
-    """Game"""
+    """
+    Game.
+
+    Returns:
+        tuple
+    """
     question = randint(1, 100)
     right_answer = 'yes' if is_even(question) else 'no'
     print('Question: {0}'.format(question))
