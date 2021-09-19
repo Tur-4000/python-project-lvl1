@@ -17,7 +17,7 @@ def calc_game():
 
 def get_game_data():
     """
-    Game.
+    Game data prepare.
 
     Returns:
         tuple

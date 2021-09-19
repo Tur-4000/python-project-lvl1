@@ -14,7 +14,7 @@ def even_game():
 
 def get_game_data():
     """
-    Game.
+    Prepare game data.
 
     Returns:
         tuple
