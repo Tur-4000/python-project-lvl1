@@ -1,6 +1,6 @@
 """GCD Game."""
-from random import randint
 from math import gcd
+from random import randint
 
 import prompt
 from brain_games.game import run_game
