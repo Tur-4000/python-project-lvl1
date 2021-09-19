@@ -5,7 +5,7 @@ from brain_games.games.gcd_game import gcd_game
 
 
 def main():
-    """Main function of Brain Even."""
+    """Main function of Brain GCD."""
     gcd_game()
 
 
