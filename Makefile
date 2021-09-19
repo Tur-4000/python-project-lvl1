@@ -31,4 +31,7 @@ package-upgrade:
 brain-games:
 	poetry run brain-games
 
+brain-even:
+	poetry run brain-even
+
 .PHONY: install test lint selfcheck check build
