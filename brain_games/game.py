@@ -29,6 +29,6 @@ def run_game(game_data, instruction):
                 "Correct answer was '{0!s}'".format(right_answer),
             )
             print("Let's try again, {0!s}!".format(user_name))
-            tour = 0
+            return None
 
     print('Congratulations, {0!s}!'.format(user_name))
