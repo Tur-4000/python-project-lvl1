@@ -10,7 +10,7 @@ def run_game(game_data, instruction):
     Args:
         game_data: callable
         instruction: string
-    
+
     Returns:
         None
     """
